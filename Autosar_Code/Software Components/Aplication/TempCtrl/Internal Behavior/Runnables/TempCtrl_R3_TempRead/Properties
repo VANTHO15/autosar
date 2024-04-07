@@ -1,0 +1,4 @@
+Short Name: TempCtrl_R3_TempRead
+Symbol: TempCtrl_R3_TempRead 
+Minimum Start Interval: 0
+Can Be Invoked Concurrently: False 
