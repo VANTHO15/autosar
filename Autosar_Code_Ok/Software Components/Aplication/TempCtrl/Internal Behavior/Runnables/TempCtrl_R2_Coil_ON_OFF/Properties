@@ -1,0 +1,4 @@
+Short Name: TempCtrl_R2_Coil_ON_OFF
+Symbol: TempCtrl_R2_Coil_ON_OFF 
+Minimum Start Interval: 0
+Can Be Invoked Concurrently: False 

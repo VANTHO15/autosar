@@ -1,0 +1,19 @@
+Name        Size
+sint8       8
+sint16      16
+sint32      32
+sint64      64
+uint8       8
+uint16      16
+uint32      32
+uint64      64
+sint8_least 8
+sint16_least    16
+sint32_least    32
+uint8_least 8
+uint16_least 16
+uint32_least 32
+boolean     8
+.
+.
+.

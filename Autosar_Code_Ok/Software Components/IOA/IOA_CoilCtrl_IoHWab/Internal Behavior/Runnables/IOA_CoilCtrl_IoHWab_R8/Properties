@@ -1,0 +1,4 @@
+Short Name: IOA_CoilCtrl_IoHWab_R8
+Symbol: IOA_CoilCtrl_IoHWab_R8 
+Minimum Start Interval: 0
+Can Be Invoked Concurrently: False 
