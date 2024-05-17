@@ -5,4 +5,5 @@
 
 - Full_Autosar Version + Spec: https://drive.google.com/file/d/1zpcAQopu9pJjdwiyer9emZx7vmJanBRX/view?usp=drive_link
 - Autosar full: https://drive.google.com/drive/folders/1GMskCjfWsEo40dPFBSjnrvhCKM6tizVz?usp=sharing
+- Autosar full new: https://drive.google.com/file/d/1MOQrwuljfaT6m4x1c0pXjHW1nV-TC_Vx/view?usp=sharing
 - First Project: https://drive.google.com/file/d/1Hu-Q8ZQKYXUmoPP-yRBYoWlTsPftVYGQ/view?usp=drive_link
