@@ -1,7 +1,8 @@
 Creating an AUTOSAR Software Component (SWC) in Vector DaVinci Developer and DaVinci Configurator involves a structured process. 
+
 1. Create an AUTOSAR Software Component in DaVinci Developer
 Vector DaVinci Developer is used to define Software Components (SWCs), interfaces, and their internal behavior.
-Step 1: Create a New Project
+  + Step 1: Create a New Project
 Open Vector DaVinci Developer.
 Select File → New Project.
 Choose a name for your project and specify the AUTOSAR version (e.g., AUTOSAR 4.2, 4.3, 4.4).
@@ -10,7 +11,7 @@ Standard Application SWC
 Service SWC
 Sensor/Actuator SWC
 Click Finish to create the project.
-Step 2: Define the SWC
+  + Step 2: Define the SWC
 Right-click on the project workspace and select New → Software Component.
 Enter the Component Name (e.g., MyAppSWC).
 Choose Component Type:
@@ -18,7 +19,7 @@ Application SWC
 Service SWC
 Complex Device Driver (CDD)
 Click OK to create the component.
-Step 3: Create Ports and Interfaces
+  + Step 3: Create Ports and Interfaces
 Open the SWC Editor.
 Navigate to the Ports & Interfaces tab.
 Add Ports:Click New Provide Port (P-Port) to create a service/data provider.
@@ -28,7 +29,7 @@ Sender-Receiver (S/R) – For exchanging signals.
 Client-Server (C/S) – For function calls.
 Mode Switch – To switch operational modes.
 Define Data Elements (for S/R interfaces) or Operations (for C/S interfaces).
-Step 4: Define Runnables and Events
+  + Step 4: Define Runnables and Events
 Go to the Internal Behavior section.
 Create a new Runnable Entity (Right-click → New Runnable).
 Assign an Entry Point Function for the runnable (e.g., Runnable_1).
@@ -37,14 +38,16 @@ Timing Event – Executes periodically.
 Data Received Event – Triggers on new data.
 Operation Invoked Event – Triggers on function call.
 Define the Execution Time and Scheduling constraints.
-Step 5: Generate ARXML for SWC
+  + Step 5: Generate ARXML for SWC
 Click File → Export → AUTOSAR XML (.arxml).
 Choose the Destination Folder for saving the file.
 Click Export.
 The tool generates an .arxml file containing SWC configurations.
+
+
 2. Configure SWC in DaVinci Configurator
 Vector DaVinci Configurator is used to configure the Basic Software (BSW) Modules and integrate the SWC into the ECU.
-Step 1: Import the SWC into DaVinci Configurator
+  + Step 1: Import the SWC into DaVinci Configurator
 Open DaVinci Configurator.
 Click File → New Project.
 Select ECU Configuration template.
@@ -52,17 +55,17 @@ Import the SWC ARXML from DaVinci Developer:
 Click Import AUTOSAR XML.
 Select the SWC .arxml file.
 Click OK.
-Step 2: Configure the RTE (Runtime Environment)
+  + Step 2: Configure the RTE (Runtime Environment)
 Navigate to the RTE Configuration tab.
 Assign the SWC to the ECU instance.
 Map SWC Ports to BSW Modules (e.g., COM, NVM).
 Configure Memory Mapping for SWC variables.
-Step 3: Generate the RTE and BSW Code
+  + Step 3: Generate the RTE and BSW Code
 Click Generate Code to create:
 RTE Code for SWC integration.
 BSW Configuration Files.
 The tool will generate C code for AUTOSAR RTE and BSW.
-Step 4: Compile and Integrate
+  + Step 4: Compile and Integrate
 Import the generated RTE and BSW code into your AUTOSAR project.
 Compile the software using a compiler like GCC or TASKING.
 Load the compiled software onto the ECU and validate.
